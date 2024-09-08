@@ -1,0 +1,25 @@
+{
+    "name": "laraphant/contactform",
+    "description": "laravel contact form package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laraphant\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Laraphant\\Contactform\\ContactFromServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "lina sulaiman"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
